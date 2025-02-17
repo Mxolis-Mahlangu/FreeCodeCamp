@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+
+// Call different kinds of methods in the .NET Class Library
+
+
+Random dice = new Random();
+int roll = dice.Next(1, 7);
+Console.WriteLine(roll);
+
+
